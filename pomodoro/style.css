@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-position: center;
+    font-family: "Epilogue", sans-serif;
+    background-image: url("./images/bg-img.jpg");
+    overflow: hidden;
+    margin: 300px auto;
+}
+
+.container {
+    background-color: rgb(248, 139, 139);
+    text-align: center;
+    border-radius: 7px;
+    padding: 10px;
+    width: 280px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 53px;
+}
+
+
+.top-menu {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    font-family: inherit;
+}
+
+#start {
+    padding: 5px 15px;
+    background-color: rgb(0, 150, 0);
+    border: none;
+    font-size: 17px;
+    border-radius: 7px;
+}
+
+#stop {
+    padding: 5px 15px;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    font-size: 17px;
+    border-radius: 7px;
+}
+
+#reset {
+    padding: 5px 15px;
+    background-color: rgb(201, 201, 201);
+    border: none;
+    font-size: 17px;
+    border-radius: 7px;
+}
+
+@media (min-width: 360px) {
+    .container {
+        width: 440px;
+        margin: 300px auto;
+        padding: 5px;
+    }
+}
